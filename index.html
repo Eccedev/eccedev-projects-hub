@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    <title>Eccedev Project Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><a  class="a-title" href="">Juegos y Web-Apps</a></h1>
+        <nav>
+            <button id="catalogBtn">Juegos</button>
+            <button id="randomBtn">Juego aleatorio</button>
+            <button id="adultsBtn" class="adultos">Solo +18 años</button>
+            <button id="projectsBtn">Proyectos Web2-Web3</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="welcome" class="active">
+            <h2>Bienvenido a mi colección de Juegos y Proyectos</h2>
+            <p>Usa los botones para acceder a las listas de juegos y proyectos Web2-Web3. ¡Disfruta!</p>
+        </section>
+
+        <section id="catalog" class="active">
+            <h2>Catálogo de Juegos</h2>
+            <div id="gameGrid"></div>
+        </section>
+
+        <section id="randomGame">
+            <h2>Juego Aleatorio</h2>
+            <div id="randomGameContainer"></div>
+        </section>
+
+        <!-- OJO La section para "Solo +18 años" igual que id="catalog" pero "adult: true" en script.js-->
+        
+        <section id="projects">
+            <h2>Proyectos Top</h2>
+            <div id="projectGrid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <a href="https://github.com/Eccedev">By Eccedev</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

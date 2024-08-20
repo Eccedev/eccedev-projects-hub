@@ -1,0 +1,229 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 8px 4px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#adultsBtn {
+    background-color: rgb(211, 54, 54);
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* centra horizontal */
+    /* justif-content: center;*/    /* centra vertical */
+}
+
+section {
+    display: none;
+    width: 100%;
+    max-width: 1200px;
+}
+
+section.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gameGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+/* Estilos para las tarjetas de juegos */
+.game-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    margin: 1rem;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.game-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.game-card h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.game-card p {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.game-card button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.game-card button:hover {
+    background-color: #2980b9;
+}
+
+#randomGameContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+#projectGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2rem; /* Tamaño de fuente más grande */
+    font-weight: 700; /* Fuente más gruesa */
+}
+.a-title {
+    text-decoration: none;
+    color: #d6e8f5; /* Color azul más vibrante */
+    transition: color 0.3s ease; /* Transición suave para el hover */
+    position: relative; /* Para el efecto de subrayado */
+}
+
+.a-title:hover {
+    color: #e74c3c; /* Color rojo al pasar el mouse */
+}
+
+.a-title::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #e74c3c;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.a-title:hover::after {
+    transform: scaleX(1);
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+}
+
+p {
+    text-align: center;
+    max-width: 600px;
+    margin: 1rem auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #222121;
+    background-color: #ffffff;
+    border: 1px solid black;
+    margin: 1rem;
+}
+footer>a {    
+    text-decoration: none;
+}

@@ -6,7 +6,7 @@ const games = [
     { id: 5, title: "KMsutra fun fun", description: "Juega despertando la pasión de forma random", image: "./assets/kmsutra.png", url: "https://kmsutra45.vercel.app/", adult: true, type: "game" },
     { id: 6, title: "Hero LucaWeb3 Services Theme", description: "Dale vida a tu idea Web3", image: "./assets/hero-luca-web.png", url: "https://web-hero-luca.vercel.app/", adult: false, type: "project" },
     { id: 7, title: "$LUCA mEmE coin", description: "A digital microbe mEmE coin for everyone", image: "./assets/luca-coin.png", url: "https://lucacoin.vercel.app/", adult: false, type: "project" },
-    { id: 8, title: "Pomodoro SkillsUp App", description: "Mejora tus destrezas/conocimientos con un sistema eficaz", image: "./assets/pomodoroskillsup.png", url: "https://pomodoro-skillsup.vercel.app/", adult: false, type: "project" },
+    { id: 8, title: "Pomodoro SkillsUp App", description: "Mejora conocimientos con un sistema eficaz", image: "./assets/pomodoroskillsup.png", url: "https://pomodoro-skillsup.vercel.app/", adult: false, type: "project" },
 ];
 
 // Elementos del DOM

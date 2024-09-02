@@ -4,9 +4,9 @@ const games = [
     { id: 3, title: "Top100filmdle", description: "Descubre qué película se esconde", image: "./assets/filmdle.png", url: "https://topfilmdle.vercel.app/", adult: false, type: "game" },
     { id: 4, title: "Reto o Verdad", description: "Demuestra lo valiente que eres a tus amigxs", image: "./assets/reto-verdad.png", url: "https://reto-o-verdad.vercel.app/", adult: true, type: "game" },
     { id: 5, title: "KMsutra fun fun", description: "Juega despertando la pasión de forma random", image: "./assets/kmsutra.png", url: "https://kmsutra45.vercel.app/", adult: true, type: "game" },
-    { id: 6, title: "Hero LucaWeb3 Services", description: "Dale vida a tu idea Web3", image: "./assets/hero-luca-web.png", url: "https://web-hero-luca.vercel.app/", adult: false, type: "project" },
+    { id: 6, title: "Hero LucaWeb3 Services Theme", description: "Dale vida a tu idea Web3", image: "./assets/hero-luca-web.png", url: "https://web-hero-luca.vercel.app/", adult: false, type: "project" },
     { id: 7, title: "$LUCA mEmE coin", description: "A digital microbe mEmE coin for everyone", image: "./assets/luca-coin.png", url: "https://lucacoin.vercel.app/", adult: false, type: "project" },
-    { id: 8, title: "Pomodoro SkillsUp App", description: "Mejora tus destrezas/conocimientos con un sistema eficaz", image: "./assets/assets/pomodoroskillsup.png", url: "https://pomodoro-skillsup.vercel.app/", adult: false, type: "project" },
+    { id: 8, title: "Pomodoro SkillsUp App", description: "Mejora tus destrezas/conocimientos con un sistema eficaz", image: "./assets/pomodoroskillsup.png", url: "https://pomodoro-skillsup.vercel.app/", adult: false, type: "project" },
 ];
 
 // Elementos del DOM

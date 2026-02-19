@@ -8,7 +8,8 @@ const games = [
     { id: 7, title: "$LUCA mEmE coin", description: "A digital microbe mEmE coin for everyone", image: "./assets/luca-coin.png", url: "https://lucacoin.vercel.app/", adult: false, type: "project" },
     { id: 8, title: "Pomodoro SkillsUp App", description: "Mejora conocimientos con un sistema eficaz", image: "./assets/pomodoroskillsup.png", url: "https://pomodoro-skillsup.vercel.app/", adult: false, type: "project" },
     { id: 9, title: "Blog website theme ", description: "Un blog de categoría...y etiquetas", image: "./assets/blog-website.jpg", url: "https://blog-website-theme.vercel.app/", adult: false, type: "project" },
-    { id: 10, title: "CRM NoSeMeEscapa ", description: "Un CRM para profesionales>clientes", image: "./assets/crm-nosemeescapa.JPG", url: "https://github.com/Eccedev/NoSeMeEscapa-CRM/tree/main", adult: false, type: "project" }
+    { id: 10, title: "CRM NoSeMeEscapa ", description: "Un CRM para profesionales>clientes", image: "./assets/crm-nosemeescapa.JPG", url: "https://github.com/Eccedev/NoSeMeEscapa-CRM/tree/main", adult: false, type: "project" },
+    { id: 10, title: "RobotsIdeas ", description: "un proyecto humano (y muy curioso) que chocó con una anomalía cuántica: Los QuBoX", image: "./assets/robotsideas.JPG", url: "https://robotsideas.vercel.app/", adult: false, type: "project" }
 ];
 
 // Elementos del DOM

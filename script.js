@@ -7,7 +7,7 @@ const games = [
     { id: 6, title: "Hero LucaWeb3 Services Theme", description: "Dale vida a tu idea Web3", image: "./assets/hero-luca-web.png", url: "https://web-hero-luca.vercel.app/", adult: false, type: "project" },
     { id: 7, title: "$LUCA mEmE coin", description: "A digital microbe mEmE coin for everyone", image: "./assets/luca-coin.png", url: "https://lucacoin.vercel.app/", adult: false, type: "project" },
     { id: 8, title: "Pomodoro SkillsUp App", description: "Mejora conocimientos con un sistema eficaz", image: "./assets/pomodoroskillsup.png", url: "https://pomodoro-skillsup.vercel.app/", adult: false, type: "project" },
-    { id: 9, title: "Blog website theme ", description: "Un blog de categoría...y etiquetas", image: "./assets/blog-website.jpg", url: "https://blog-website-theme.vercel.app/", adult: false, type: "project" },
+    { id: 9, title: "Blog website theme ", description: "Un blog de categoría...y etiquetas", image: "./assets/blog-website.JPG", url: "https://blog-website-theme.vercel.app/", adult: false, type: "project" },
     { id: 10, title: "CRM NoSeMeEscapa ", description: "Un CRM para profesionales>clientes", image: "./assets/crm-nosemeescapa.JPG", url: "https://github.com/Eccedev/NoSeMeEscapa-CRM/tree/main", adult: false, type: "project" },
     { id: 11, title: "RobotsIdeas ", description: "1 human project + quantum anomaly... QuBoX", image: "./assets/robotsideas.JPG", url: "https://robotsideas.vercel.app/", adult: false, type: "project" },
     { id: 12, title: "MiCicloWeekWOD ", description: "Managing my training by evolving loads and resistances by days-weeks-cycles.", image: "./assets/micicloweekwod.JPG", url: "https://micicloweekwod.vercel.app/", adult: false, type: "project" }

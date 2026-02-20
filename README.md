@@ -1,5 +1,8 @@
 # Eccedev Projects Hub - PWA
-![hub](https://github.com/user-attachments/assets/117d3510-8792-402e-b101-6128a9907b73)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/117d3510-8792-402e-b101-6128a9907b73" alt="imagen de la web-hub">
+</p>
 
 Un hub centralizado y dinámico diseñado para mostrar una colección de juegos y proyectos Web2/Web3. Esta aplicación ha sido construida como una **Progressive Web App (PWA)**, ofreciendo una experiencia de usuario fluida, instalable y con capacidades offline.
 

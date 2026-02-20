@@ -1,3 +1,10 @@
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+            .then(reg => console.log('Service Worker registrado correctamente', reg))
+            .catch(err => console.error('Error al registrar el Service Worker', err));
+    });
+}
 const games = [
     { id: 1, title: "MemoryCards", description: "Entrena tu memoria", image: "./assets/memoria.png", url: "https://tarjetas-de-memoria.vercel.app/", adult: false, type: "game" },
     { id: 2, title: "Numberdle", description: "Adivina el número aleatorio", image: "./assets/numberdle-img.png", url: "https://numberdle.vercel.app/", adult: false, type: "game" },
